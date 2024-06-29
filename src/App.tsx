@@ -1,24 +1,28 @@
-import React from 'react';
-import './App.css';
+import Login from './pages/login/Login';
+import Register from './pages/register/Register';
+import Test from './pages/test/Test';
+import Main from './pages/main/Main';
+import { CssBaseline } from '@mui/material';
+import { ThemeProvider } from "@material-ui/core";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { theme } from './theme';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return <>
+    <CssBaseline />
+    <ThemeProvider theme={theme}>
+      <BrowserRouter>
+        <div className='app'>
+          <Routes>
+            <Route path="" element={<Login />} />
+            <Route path="register" element={<Register />} />
+            <Route path="test" element={<Test />} />
+            <Route path="main" element={<Main />} />
+          </Routes>
+        </div>
+      </BrowserRouter>
+    </ThemeProvider>
+  </>;
 }
 
 export default App;

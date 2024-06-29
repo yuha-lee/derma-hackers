@@ -26,7 +26,7 @@ module.exports = {
       },
       {
         test: /\.(css|scss)$/i,
-        use: ["style-loader", "css-loader"],
+        use: ["style-loader", "css-loader", "sass-loader"],
       },
 			{
 				test: /\.(jpg|jpeg|gif|png|svg|ico)?$/,
@@ -47,7 +47,7 @@ module.exports = {
   },
   resolve: {
     modules: [path.join(__dirname, "src"), "node_modules"],
-    extensions: [".js",".jsx",".ts",".tsx"],
+    extensions: [".ts", ".tsx", ".js", ".css", ".scss"],
   },
   plugins: [
     new HtmlWebpackPlugin({
