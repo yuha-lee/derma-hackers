@@ -4,8 +4,22 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	gap: 16px;
 }
 
 .buttons {
-	margin-top: 16px;
+	margin-top: 32px;
+	color: #fff;
+	display: flex;
+	gap: 8px;
+}
+
+.mainImg {
+	width: 100%;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }

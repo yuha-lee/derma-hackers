@@ -1,0 +1,21 @@
+.container {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 16px;
+	justify-content: center;
+}
+
+.skip {
+	position: absolute !important;
+	bottom: 16px;
+	right: 16px;
+}
+
+.title {
+	margin-bottom: 8px;
+}
+
+.chip {
+	padding-bottom: 16px;
+}

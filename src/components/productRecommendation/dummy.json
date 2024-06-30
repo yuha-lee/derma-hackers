@@ -1,0 +1,69 @@
+[
+	{
+		"link": "https://www.nivea.co.uk/products/cellular-luminous630-anti-dark-spot-post-acne-marks-serum-40060000113940045.html",
+		"type": "Face Care",
+		"img": "https://images-eu.nivea.com/-/media/miscellaneous/media-center-items/temp/dbf8f724a1dd4d1b93b4b90dc699a539-web_1010x1180_transparent_png.png",
+		"title": "Cellular Luminous630 Anti Dark-Spot Post-Acne Marks Serum",
+		"labels": [
+				"Even skin tone",
+				"Mattifying",
+				"Luminous630",
+				"Hyaluronic acid",
+				"Oily Skin",
+				"Combination skin",
+				"Blemish Prone"
+		],
+		"rating": "4.2",
+		"rating_num": "306"
+	},
+	{
+		"link": "https://www.nivea.co.uk/products/mattifying-day-cream-40058085726630045.html",
+		"type": "Face Care",
+		"img": "https://images-eu.nivea.com/-/media/miscellaneous/media-center-items/2/4/7/704b96f718c34dae863ae3a67a52c0b3-web_1010x1180_transparent_png.webp?mw=960&hash=2A6C2E94F86FC978C5C52325A8B1D07C",
+		"title": "Mattifying Day Cream",
+		"labels": [
+				"Moisturising",
+				"Mattifying",
+				"Anti-shine",
+				"Recycled material",
+				"Aloe Vera",
+				"Minerals",
+				"Combination skin",
+				"Oily Skin"
+		],
+		"rating": "4.0",
+		"rating_num": "140"
+	},
+	{
+		"link": "https://www.nivea.co.uk/products/q10-60-eye-cream-40059009175390045.html",
+		"type": "Top",
+		"img": "https://images-eu.nivea.com/-/media/miscellaneous/media-center-items/7/6/b/30dc1fc2995046c1bf82adb7c6183f45-web_1010x1180_transparent_png.webp?mw=960&hash=263D2675660F23573AE594F702D01854",
+		"title": "Q10 60+ Anti-Wrinkle & Anti-Puffiness Eye Cream",
+		"labels": [
+				"Anti-aging",
+				"Nourishing",
+				"Firming",
+				"Skin Identical Q10",
+				"Calcium",
+				"All skin types"
+		],
+		"rating": "4.1",
+		"rating_num": "123"
+	},
+	{
+		"link": "https://www.nivea.co.uk/products/nivea-micellar-water-waterproof-expert-40059004981820045.html",
+		"type": "Face Cleansing",
+		"img": "https://images-eu.nivea.com/-/media/miscellaneous/media-center-items/7/e/0/ae85499234bf4059a266551fc4d2a7a1-web_1010x1180_transparent_png.webp?mw=960&hash=9EDBA0606C8B1D8BCE562BD02D3D52D9",
+		"title": "NIVEA Micellar Water Waterproof Expert",
+		"labels": [
+				"Cleansing",
+				"Daily Use",
+				"Natural ingredients",
+				"Recycled material",
+				"Black Tea Extract",
+				"All skin types"
+		],
+		"rating": "4.2",
+		"rating_num": "79"
+	}
+]

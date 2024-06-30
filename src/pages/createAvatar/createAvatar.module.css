@@ -1,0 +1,64 @@
+.component {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	gap: 8px;
+}
+
+.avatar {
+	border-radius: 50%;
+	width: 50%;
+}
+
+.userInfo {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	gap: 8px;
+	padding: 50px;
+}
+
+.row {
+	display: flex;
+	width: 100%;
+	align-items: center;
+}
+
+.label {
+	min-width: 100px;
+}
+
+.colorChipContainer {
+	display: flex;
+	gap: 8px;
+}
+
+.colorChip {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+
+.skin1 { background-color: #F7E4C6;}
+.skin2 { background-color: #D8A77D;}
+.skin3 { background-color: #8D5524;}
+
+.hair1 { background-color: #000000;}
+.hair2 { background-color: #A52A2A;}
+.hair3 { background-color: #FFEEAA;}
+
+.eye1 { background-color: #5295D1;}
+.eye2 { background-color: #4CD964;}
+.eye3 { background-color: #964B00;}
+
+.footer {
+	background-color: var(--primary-50);
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding: 8px;
+	display: flex;
+	justify-content: center;
+}

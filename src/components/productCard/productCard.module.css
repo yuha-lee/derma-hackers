@@ -1,0 +1,25 @@
+.card {
+	width: 150px;
+	height: 160px;
+}
+
+.card img {
+	width: 150px;
+	object-fit: contain;
+}
+
+.cardContent {
+	display: flex;
+	padding: 8px !important;
+}
+
+.cart {
+	padding-right: 0 !important;
+}
+
+.title {
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}

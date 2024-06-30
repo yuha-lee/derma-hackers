@@ -28,21 +28,7 @@ module.exports = {
         test: /\.(css|scss)$/i,
         use: ["style-loader", "css-loader", "sass-loader"],
       },
-			{
-				test: /\.(jpg|jpeg|gif|png|svg|ico)?$/,
-				use: [
-					{
-						loader: 'url-loader',
-						options: {
-							limit: 10000, 
-							fallback: 'file-loader',
-							name: '[name].[ext]?[hash]',
-							outputPath: 'img', 
-							publicPath: '../img' 
-						},
-					},
-				],
-			},
+      {           test: /\.(jpg|png|svg|gif)$/,           type: 'asset/resource',         }
 		],
   },
   resolve: {
